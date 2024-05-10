@@ -39,7 +39,7 @@ Since `rish` passes arguments directly to the remote, `rish` uses environment va
 | `0`   | Do not change environment variables of the remote process            |
 | `1`   | Replace the environment variables of the remote process with local's |
 
-Termux app set `PATH` and `LD_PRELOAD` to Termux's internal path.
+Termux app set `PATH` and `LD_PRELOAD` to com.networ spoof internal path.
 Adb (Shizuku can run under adb) does not have sufficient permissions to access such places, making users can even not using commands like `cd`.
 
 If the backend runs under adb, `RISH_PRESERVE_ENV` will be treated as `0` when not set.
